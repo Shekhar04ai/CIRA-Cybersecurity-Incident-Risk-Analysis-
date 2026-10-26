@@ -1,0 +1,27 @@
+{
+  "algorithm": "XGBoost (150 trees, depth 4, monotonic constraints on red-flag features)",
+  "data_source": "synthetic",
+  "warning": "Trained on synthetic data written by hand. These numbers do not measure real-world detection.",
+  "n_train": 15000,
+  "n_test": 5000,
+  "malicious_rate": 0.15,
+  "model_auc": 0.848,
+  "model_brier": 0.0695,
+  "constant_brier": 0.1344,
+  "checklist_auc": 0.762,
+  "features": [
+    "ext_executable",
+    "ext_script",
+    "ext_macro_doc",
+    "double_ext",
+    "mz_mismatch",
+    "entropy",
+    "size_log",
+    "in_risky_location",
+    "is_hidden",
+    "is_pe",
+    "wx_section",
+    "susp_imports",
+    "max_section_entropy"
+  ]
+}

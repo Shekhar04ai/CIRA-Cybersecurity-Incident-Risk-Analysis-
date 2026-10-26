@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="cira-token" content="__CIRA_TOKEN__">
+<title>CIRA</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>CIRA</h1>
+    <p>Cyber Incident Risk Analysis. Minimum version. Everything runs on this computer.</p>
+  </div>
+</header>
+<main class="wrap">
+  <div id="notice" class="notice" role="status" hidden></div>
+  <section id="consent" class="card" aria-labelledby="consent-h"></section>
+  <section id="progress" class="card" hidden aria-live="polite"></section>
+  <div id="results" hidden>
+    <div class="grid2">
+      <section id="health" class="card" aria-labelledby="health-h"></section>
+      <section id="whatif" class="card" aria-labelledby="whatif-h"></section>
+    </div>
+    <section id="findings" class="card" aria-labelledby="findings-h"></section>
+    <section id="system" class="card" aria-labelledby="system-h"></section>
+  </div>
+  <section id="quarantine" class="card" aria-labelledby="quarantine-h"></section>
+  <section id="model" class="card" aria-labelledby="model-h"></section>
+  <noscript><p>CIRA needs JavaScript to show its dashboard.</p></noscript>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>

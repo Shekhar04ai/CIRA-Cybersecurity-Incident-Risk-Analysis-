@@ -1,0 +1,6 @@
+fastapi>=0.110
+uvicorn>=0.29
+psutil>=5.9
+pefile>=2023.2.7
+xgboost>=2.0
+numpy>=1.26
